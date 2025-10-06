@@ -3,27 +3,28 @@
 # ⚡ Desafios em JavaScript
 
 📌 Sobre Repositório 
-- Ele contém Exercícios em JavaScript que eu pedi pro chatGPT criar problemas e eu tentar resolver usando js como principal ferramenta.
+- Ele contém Exercícios em JavaScript que eu pedi pro chatGPT criar problemas e eu tentar resolver usando js como principal ferramenta, e também inclui atividades fornecidas pelo Codédex.
 
 ---
 
 ⚙️ Tecnologias Utilizadas
 
-JavaScript 
+- JavaScript 
 
-Node.js (para rodar no terminal)
+- Node.js (para rodar no terminal)
 
 ---
 
 🎯 Objetivo
 
-Aprimorar habilidades em lógica de programação e JavaScript.
+- Aprimorar habilidades em lógica de programação e JavaScript.
 
 ---
 
 👨‍💻 Autor
 
 📌 Desenvolvido por Túlio Thauã Dutra
+
 📅 Início: 26/08/2025 
 
 ---
