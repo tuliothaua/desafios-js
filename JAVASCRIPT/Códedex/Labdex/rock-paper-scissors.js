@@ -23,8 +23,10 @@ function play(player,computer){
     return "The Player Won!"
   } else if (player == paper && computer == rock){
     return "The Player Won!"
-  } else if (player == computer){
+  } else if (player == computer || computer == player){
     return "Draw, no one wins!"
+  } else if (player < 0 || player > 2 || computer < 0 || computer > 2) {
+    return "Invalid Value, no one wins!"
   } else {
     return "The Computer Won!"
   }
