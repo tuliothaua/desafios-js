@@ -2,6 +2,7 @@ img {
     float: left;
     height: 300px;
     width: 300px;
+    margin-right: 15px;
 }
 
 h1 {
