@@ -6,16 +6,19 @@ frm.addEventListener("submit", (e) => {
     e.preventDefault()
 
     const num = Number(frm.inNumero.value)
-    let numDivisoes = 0
+    let temDivisoes = 0 // variavel flag
 
     //Percorre todos os possiveis divisores de num
-    for(let i = 1; i <= num; i++){
-        if(num % i == 0){
-            numDivisoes++
+    for(let i = 2; i <= num / 2; i++){
+
+        if(num % i == 0){ //se tem um divisor
+            temDivisoes = 1 //Muda o flag
+            break
         }
     }
-    //Se possui apenas 2 divisões (é primo)
-    if(numDivisoes == 2){
+    
+    //Se num > 1 e não possui divisor
+    if(num > 1 && !temDivisoes){
         resp.innerText = `${num} é primo`
     } else {
         resp.innerText = `${num} não é primo`
